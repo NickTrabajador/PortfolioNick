@@ -73,7 +73,7 @@ const allProjects = [
     id: "05",
     title: "Proyecto React ",
     image: "./public/assets/imgs/Frontend5.jpg",
-    description: "Proyecto hecho en React para una Intranet de un Mercado.",
+    description: "Proyecto en React una App de Sorteos.",
     tags: {
       React: "React",
         Css: "Css"
@@ -84,7 +84,7 @@ const allProjects = [
     },
     links: {
       
-      youtube: "https://www.youtube.com/watch?v=pRdGOQ6pq_A&ab_channel=NickTrabajador"
+      youtube: "https://www.youtube.com/watch?v=PmaUcFOmEGk&ab_channel=NickTrabajador"
     }
   },
   {
@@ -108,17 +108,18 @@ const allProjects = [
     id: "07",
     title: "Proyecto React",
     image: "./public/assets/imgs/Frontend7.jpg",
-    description: "Proyecto en React para una App de Sorteos.",
+    description: "WebApp donde esta todo mi contenido de Youtube",
     tags: {
-      React: "React",
+      React: "Html",
       Css: "Css",
+      Bootstrap5: "Bootstrap5"
     },
     category: {
       id: "frontend",
       name: "Frontend",
     },
     links: {
-     youtube: "https://www.youtube.com/watch?v=m15iSwIBj6c&t=921s&ab_channel=NickTrabajador"
+     youtube: "https://www.youtube.com/watch?v=y7BEDh65hkI&ab_channel=NickTrabajador"
     }
   },
   ,
