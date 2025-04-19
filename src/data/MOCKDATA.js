@@ -1,7 +1,7 @@
 const allProjects = [
   {
     id: "01",
-    title: "Portafolio Nick.",
+    title: "Portafolio Nick",
     image: "./public/assets/imgs/Frontend1.jpg",
     description: "Portfolio construido con HTML, CSS y Javascript",
     tags: {
@@ -55,7 +55,7 @@ const allProjects = [
     id: "04",
     title: "Proyecto Portfolio",
     image: "./public/assets/imgs/Frontend4.jpg",
-    description: " Proyecto personal, este es un proyecto backend y FrontEnd.",
+    description: "Proyecto portfolio Personal.",
     tags: {
       Html: "Html",
       Css: "Css",
@@ -73,7 +73,7 @@ const allProjects = [
     id: "05",
     title: "Proyecto React ",
     image: "./public/assets/imgs/Frontend5.jpg",
-    description: "Proyecto en React una App de Sorteos.",
+    description: "Proyecto React una App de Sorteos.",
     tags: {
       React: "React",
         Css: "Css"
@@ -91,7 +91,7 @@ const allProjects = [
     id: "06",
     title: "Proyecto React",
     image: "./public/assets/imgs/Frontend6.jpg",
-    description: "Proyecto en React para una Empresa Argentina.",
+    description: "Proyecto React para una Empresa Argentina.",
     tags: {
       React: "React",
       Css: "Css",
@@ -127,7 +127,7 @@ const allProjects = [
     id: "08",
     title: "Proyecto ReactNative",
     image: "./public/assets/imgs/Appmovil1.jpg",
-    description: "Proyecto en React para una App de QuizFutbol.",
+    description: "Proyecto React una App de QuizFutbol.",
     tags: {
       React: "React",
       Css: "Css",
