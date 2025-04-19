@@ -7,28 +7,28 @@
   --color-primary: #1C6EA4; /* Azul brillante para acentos principales */
   
   /* Colors for Dark Theme */
-  --color-text-main-darktheme: #ffcc00; /* Amarillo brillante para títulos en temas oscuros */
-  --color-text-dark: #CCCCCC; /* Gris claro para el contenido */
+  --color-text-main-darktheme: #FFEB3B; /* Amarillo más suave para mayor contraste */
+  --color-text-dark: #E0E0E0; /* Gris claro para el contenido, más accesible */
   --color-bg-dark: #121212; /* Negro suave para fondo */
   
   /* Colors for Light Theme */
-  --color-text-main-lighttheme: #FF3D3D; /* Rojo fuerte para títulos en temas claros */
-  --color-text-light: #003366; /* Azul oscuro para el contenido en temas claros */
-  --color-bg-light: #f5f5f5; /* Gris muy claro, casi blanco, para el fondo */
-  
+  --color-text-main-lighttheme: #D32F2F; /* Rojo más oscuro para mejor contraste */
+  --color-text-light: #0D47A1; /* Azul oscuro para el contenido, mejor contraste */
+  --color-bg-light: #FFFFFF; /* Blanco puro para el fondo */
+
   /* Borders for Dark Theme */
   --border-dark: 0.1rem solid rgba(255, 255, 255, 0.3); /* Borde blanco tenue para destacar */
-  --border-dark-light: 0.4rem solid #ffcc00; /* Borde amarillo brillante para acentos */
+  --border-dark-light: 0.4rem solid #FFEB3B; /* Borde amarillo más suave para acentos */
   
   /* Borders for Light Theme */
   --border-light: 0.1rem solid rgba(0, 0, 0, 0.2); 
-  --border-light-light: 0.4rem solid #FF3D3D; /* Borde rojo fuerte en temas claros */
+  --border-light-light: 0.4rem solid #D32F2F; /* Borde rojo más oscuro en temas claros */
   
   --border-none: 0.1rem solid transparent;
   
   /* Box shadows */
-  --box-shadow-card: 0.4rem 0.4rem 1rem rgba(255, 255, 255, 0.2), -0.4rem -0.4rem 1rem rgba(255, 255, 255, 0.1);
-  --box-shadow-inset: 0.4rem 0.4rem 1rem rgba(255, 255, 255, 0.3) inset, -0.4rem -0.4rem 1rem rgba(255, 255, 255, 0.2) inset;
+  --box-shadow-card: 0.4rem 0.4rem 1rem rgba(0, 0, 0, 0.2), -0.4rem -0.4rem 1rem rgba(0, 0, 0, 0.1);
+  --box-shadow-inset: 0.4rem 0.4rem 1rem rgba(0, 0, 0, 0.3) inset, -0.4rem -0.4rem 1rem rgba(0, 0, 0, 0.2) inset;
 }
 
 /* --- BASE --- */
