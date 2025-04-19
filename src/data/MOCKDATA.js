@@ -23,8 +23,8 @@ const allProjects = [
     image: "./public/assets/imgs/Frontend2.jpg",
     description: "Portfolio construido con HTML, CSS y Javascript",
     tags: {
-      Html: "Html"
-      Css: "Css"
+      Html: "Html",
+      Css: "Css",
       Javascript: "Javascript"
 
     },
