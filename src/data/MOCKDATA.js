@@ -74,7 +74,7 @@ const allProjects = [
   },
   {
     id: "05",
-    title: "Proyecto React ",
+    title: "Proyecto AppSorteos",
     image: "./public/assets/imgs/Frontend5.jpg",
     description: "Proyecto React una App de Sorteos.",
     tags: {
@@ -91,25 +91,8 @@ const allProjects = [
     }
   },
   {
-    id: "06",
-    title: "Proyecto React",
-    image: "./public/assets/imgs/Frontend6.jpg",
-    description: "Proyecto React para una Empresa Argentina.",
-    tags: {
-      React: "React",
-      Css: "Css",
-    },
-    category: {
-      id: "frontend",
-      name: "Frontend",
-    },
-    links: {
-     youtube: "https://www.youtube.com/watch?v=7JBN5k88Amw&t=183s&ab_channel=NickTrabajador"
-    }
-  },
-  {
     id: "07",
-    title: "Proyecto React",
+    title: "Proyecto AppVideosYoutube",
     image: "./public/assets/imgs/Frontend7.jpg",
     description: "WebApp donde esta todo mi contenido de Youtube",
     tags: {
@@ -123,24 +106,6 @@ const allProjects = [
     },
     links: {
      youtube: "https://www.youtube.com/watch?v=y7BEDh65hkI&ab_channel=NickTrabajador"
-    }
-  },
-  ,
-  {
-    id: "08",
-    title: "Proyecto ReactNative",
-    image: "./public/assets/imgs/Appmovil1.jpg",
-    description: "Proyecto React una App de QuizFutbol.",
-    tags: {
-      React: "React",
-      Css: "Css",
-    },
-    category: {
-      id: "appmovil",
-      name: "AppMovil",
-    },
-    links: {
-     youtube: "https://www.youtube.com/watch?v=XcWbhBK9bYE&t=54s&ab_channel=NickTrabajador"
     }
   },
 ];
