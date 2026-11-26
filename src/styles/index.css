@@ -961,21 +961,21 @@ section {
 
 @media (max-width: 768px) {
   .loader__container .loader {
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 6px;
   }
 }
 
 @media (max-width: 450px) {
   .loader__container .loader {
-    font-size: 15px;
+    font-size: 19px;
     letter-spacing: 3px;
   }
 }
 
 @media (max-width: 380px) {
   .loader__container .loader {
-    font-size: 13px;
+    font-size: 17px;
     letter-spacing: 2px;
   }
 }
