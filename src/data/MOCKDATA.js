@@ -19,43 +19,6 @@ const allProjects = [
   },
   {
     id: "02",
-    title: "Proyecto Portfolio Personal",
-    image: "./public/assets/imgs/Frontend2.jpg",
-    description: "Portfolio construido con HTML, CSS y Javascript",
-    tags: {
-      Html: "Html",
-      Css: "Css",
-      Javascript: "Javascript"
-
-    },
-    category: {
-      id: "fronted",
-      name: "Frontend"
-    },
-    links: {
-      youtube: "https://www.youtube.com/watch?v=T2luI39cNKo&ab_channel=NickTrabajador"
-    }
-  },
-  {
-    id: "03",
-    title: "Proyecto Pagina Web Kns Salud",
-    image: "./public/assets/imgs/Frontend3.jpg",
-    description: "Pagina Web hecha con Html, Css y Javascript",
-    tags: {
-      Html: "Html",
-      Css: "Css",
-      Javascript: "Javascript"
-    },
-    category: {
-      id: "frontend",
-      nombre: "Frontend"
-    },
-    links: {
-      youtube: "https://www.youtube.com/watch?v=BGKi33FD1AU&ab_channel=NickTrabajador"
-    }
-  },
-  {
-    id: "04",
     title: "Proyecto Portfolio",
     image: "./public/assets/imgs/Frontend4.jpg",
     description: "Proyecto portfolio Personal.",
@@ -73,7 +36,7 @@ const allProjects = [
     }
   },
   {
-    id: "05",
+    id: "03",
     title: "Proyecto AppSorteos",
     image: "./public/assets/imgs/Frontend5.jpg",
     description: "Proyecto React una App de Sorteos.",
@@ -91,7 +54,7 @@ const allProjects = [
     }
   },
   {
-    id: "07",
+    id: "04",
     title: "Proyecto AppVideosYoutube",
     image: "./public/assets/imgs/Frontend7.jpg",
     description: "WebApp donde esta todo mi contenido de Youtube",

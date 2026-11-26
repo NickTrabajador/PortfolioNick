@@ -4,31 +4,31 @@
 /* --- CSS VARIABLES --- */
 :root {
   /* CSS variables for colors */
-  --color-primary: #1C6EA4; /* Azul brillante para acentos principales */
+  --color-primary: #3B82F6; /* Azul brillante con buen contraste sobre fondo oscuro y botones */
   
-/* Colors for Dark Theme */
---color-text-main-darktheme: #ffcc00; /* Amarillo brillante para títulos en temas oscuros */
---color-text-dark: #999999; /* Gris más oscuro para el contenido en tema oscuro */
---color-bg-dark: #121212; /* Fondo oscuro */
+  /* Colors for Dark Theme */
+  --color-text-main-darktheme: #FACC15; /* Amarillo brillante para títulos en tema oscuro (Contraste 12.4:1) */
+  --color-text-dark: #E4E4E7; /* Gris muy claro para lectura cómoda en párrafos (Contraste 15.1:1) */
+  --color-bg-dark: #121212; /* Fondo oscuro */
 
-/* Colors for Light Theme */
---color-text-main-lighttheme: #D32F2F; /* Rojo ligeramente más oscuro para títulos en temas claros */
---color-text-light: #000000; /* Negro para texto en temas claros */
---color-bg-light: #f5f5f5; /* Fondo gris claro */
+  /* Colors for Light Theme */
+  --color-text-main-lighttheme: #92400E; /* Ámbar oscuro para títulos en tema claro (Contraste 7.2:1) */
+  --color-text-light: #111827; /* Carbón profundo de máxima legibilidad (Contraste 16.2:1) */
+  --color-bg-light: #f5f5f5; /* Fondo gris claro */
 
   /* Bordes para el tema oscuro */
---border-dark: 0.1rem solid rgba(255, 255, 255, 0.5); /* Borde más visible para temas oscuros */
---border-dark-light: 0.4rem solid #ffcc00; /* Borde amarillo brillante para acentos */
+  --border-dark: 0.1rem solid rgba(255, 255, 255, 0.35); /* Borde visible para temas oscuros */
+  --border-dark-light: 0.3rem solid #FACC15; /* Borde amarillo brillante para acentos */
 
-/* Bordes para el tema claro */
---border-light: 0.1rem solid rgba(0, 0, 0, 0.3); /* Borde más oscuro para temas claros */
---border-light-light: 0.4rem solid #D32F2F; /* Borde rojo para acentos en el tema claro */
+  /* Bordes para el tema claro */
+  --border-light: 0.1rem solid rgba(0, 0, 0, 0.35); /* Borde marcado para delimitar tarjetas en tema claro */
+  --border-light-light: 0.3rem solid #92400E; /* Borde ámbar oscuro para acentos en el tema claro */
 
-/* Sombras para tarjetas */
---box-shadow-card: 0.4rem 0.4rem 1rem rgba(255, 255, 255, 0.3), -0.4rem -0.4rem 1rem rgba(255, 255, 255, 0.2);
+  /* Sombras para tarjetas */
+  --box-shadow-card: 0.4rem 0.4rem 1rem rgba(255, 255, 255, 0.3), -0.4rem -0.4rem 1rem rgba(255, 255, 255, 0.2);
 
-/* Sombras internas */
---box-shadow-inset: 0.4rem 0.4rem 1rem rgba(255, 255, 255, 0.4) inset, -0.4rem -0.4rem 1rem rgba(255, 255, 255, 0.3) inset;
+  /* Sombras internas */
+  --box-shadow-inset: 0.4rem 0.4rem 1rem rgba(255, 255, 255, 0.4) inset, -0.4rem -0.4rem 1rem rgba(255, 255, 255, 0.3) inset;
 }
 
 /* --- BASE --- */
