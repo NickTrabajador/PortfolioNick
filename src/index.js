@@ -100,3 +100,20 @@ document.getElementById('download-btn').addEventListener('click', function() {
   document.getElementById('cv-link').click();
   document.getElementById('titulo-link').click();
 });
+
+
+  const btnGmail = document.getElementById('btn-gmail');
+  const correo = 'nickrafaeldz@gmail.com';
+  const asunto = encodeURIComponent('Contacto para una Colaboración');
+  const esMovil = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  if (esMovil) {
+    // En teléfono abre la app de Gmail directo en Redactar
+    btnGmail.href = `mailto:${correo}?subject=${asunto}`;
+  } else {
+    // En PC abre Gmail Web en una pestaña nueva directo en Redactar
+    btnGmail.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${correo}&su=${asunto}`;
+    btnGmail.target = '_blank';
+    btnGmail.rel = 'noopener noreferrer';
+  }
+
