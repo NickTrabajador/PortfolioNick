@@ -6,8 +6,8 @@ const allProjects = [
     description: "Portfolio construido con HTML, CSS y Javascript",
     tags: {
       html: "html",
-      css: "css",
-      js: "js"
+      css: "Css",
+      js: "Javascript"
     },
     category: {
       id: "frontend",
@@ -61,7 +61,8 @@ const allProjects = [
     tags: {
       React: "Html",
       Css: "Css",
-      Bootstrap5: "Bootstrap5"
+      Bootstrap5: "Bootstrap5",
+      Javascript: "Javascript"
     },
     category: {
       id: "frontend",
